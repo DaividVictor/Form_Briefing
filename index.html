@@ -11,51 +11,87 @@
 <body>
 <!-- Cabeçalho com título e subtítulo -->
   <div>
-      <h1 id="titulo">Briefing para Desenvolvimento de Website</h1>
-      <p id="subtitulo">O briefing é ideal para entender bem o seu projeto, conhecer a sua empresa/marca e principalmente, desenvolver uma vitrine na internet que demonstre aos seus clientes e parceiros uma empresa/marca forte e de grande valor.</p>
-      <p><strong>Não é necessário responder todas as perguntas. Mas quanto mais, melhor.</strong></p><br>
+    <h1 id="titulo">Briefing para Desenvolvimento de Website</h1>
+    <p id="subtitulo">O briefing é ideal para entender bem o seu projeto, conhecer a sua empresa/marca e principalmente, desenvolver uma vitrine na internet que demonstre aos seus clientes e parceiros uma empresa/marca forte e de grande valor.</p>
+    <p id="observacao"><strong>Não é necessário responder todas as perguntas. Mas quanto mais, melhor.</strong></p><br>
   </div>
 
 <!-- INÍCIO DO FORMULÁRIO -->
-    <section class="section" id="identificacao">
-      <h2>IDENTIFICAÇÃO</h2>
-      <form>
+  <section class="section" id="identificacao">
+    <h2>IDENTIFICAÇÃO</h2>
+
 <!-- CAMPO DE IDENTIFICAÇÃO -->
-        <fieldset>
-          <div>
-            <label for="nomeEmpresa">Nome da empresa:</label>
-            <input type="text" name="nomeEmpresa" id="nomeEmpresa">
-          </div>
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nomeEmpresa">Nome da empresa:</label>
+          <input type="text" name="nomeEmpresa" id="nomeEmpresa">
+        </div>
 
-          <div>
-            <label for="nomeCliente">Nome do cliente:</label>
-            <input type="text" name="nomeCliente" id="nomeCliente">
-          </div>
+        <div class="campo">
+          <label for="nomeCliente">Nome do cliente:</label>
+          <input type="text" name="nomeCliente" id="nomeCliente">
+        </div>
 
-          <div>
-            <label for="emailCliente">E-mail do cliente:</label>
-            <input type="email" name="emailCliente" id="emailCliente">
-          </div>
-        </fieldset>
+        <div class="campo">
+          <label for="email">E-mail do cliente:</label>
+          <input type="email" name="email" id="email">
+        </div>
+      </fieldset>
+    </form>
+  </section>
 
-        <!-- PERGUNTAS SOBRE A EMPRESA -->
-        <fieldset>
-          <section class="section" id="empresa">
-            <h2>PERGUNTAS SOBRE A EMPRESA</h2>
-            <div class="campo">
-              <label for="pergunta1">1 - Descreva um breve histórico de sua empresa/marca para que seja possível entender o contexto em que o seu negócio se encontra atualmente.</label>
-              <textarea name="pergunta1" id="pergunta1" style="width:26rem" rows="6"></textarea>
-            </div>
+  <section class="section" id="identificacao">
+    <h2>PERGUNTAS SOBRE A EMPRESA</h2>
 
-            <div class="campo">
-              <label for="pergunta2">Qual é o principal produto/serviço da sua empresa?</label>
-              <textarea name="pergunta2" id="pergunta2" style="width:26rem" rows="6"></textarea>
-            </div>
-          </section>
-        </fieldset>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+    <!-- PERGUNTAS SOBRE A EMPRESA -->
+    <form>
+      <fieldset>
+        <div class="campo">
+          <br>
+          <label for="pergunta1">1 - Descreva um breve histórico de sua empresa/marca para que seja possível entender o contexto em que o seu negócio se encontra atualmente.</label>
+          <textarea name="pergunta1" id="pergunta1" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta2">2 - Qual é o principal produto/serviço da sua empresa?</label>
+          <textarea name="pergunta2" id="pergunta2" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta3">3 - Quais os seus diferenciais em relação aos concorrentes?</label>
+          <textarea name="pergunta3" id="pergunta3" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta4">4 - Quais são seus principais concorrentes? Se possível, liste os sites deles para que possamos observar o que eles tem feito de bom e ruim para usarmos como referência. Além de conhecer a concorrência, também tentar extrair o seu diferencial a partir deles.</label>
+          <textarea name="pergunta4" id="pergunta4" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta5">5 -  Qual a missão, visão e valores da sua empresa/marca? O site terá uma sessão “Quem somos” e nela estará essa resposta, portanto, dedique um tempo nesta questão para ter um texto de impacto. </label>
+          <textarea name="pergunta5" id="pergunta5" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta6">6 - Possui ponto comercial físico? Qual endereço e telefone para contato? Gostaria de ter um mapa no fim da página ou apenas o endereço em forma de texto?</label>
+          <textarea name="pergunta6" id="pergunta6" style="width:26rem" rows="6"></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="pergunta7">7 - Quem é seu público alvo (pessoa física ou jurídica)? Possui informações sobre classe social, região, idade e sexo?</label>
+          <textarea name="pergunta7" id="pergunta7" style="width:26rem" rows="6"></textarea>
+        </div>
+      </fieldset>
+    </form>
+
+    <!-- PERGUNTAS SOBRE O PROJETO -->
+
+
+
+    <button type="submit">Enviar</button>
+
+  </section>
   </div>
 </body>
 </html>
