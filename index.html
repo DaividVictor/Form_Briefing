@@ -9,10 +9,52 @@
 </head>
 
 <body>
+<!-- Cabeçalho com título e subtítulo -->
   <div>
-    <section class="header">
       <h1 id="titulo">Briefing para Desenvolvimento de Website</h1>
-      <p class="texto1">O briefing é ideal para eu entender bem o projeto, conhecer a sua empresa/marca e principalmente, desenvolver uma vitrine na internet que demonstre aos clientes e parceiros uma empresa/marca forte e de grande valor.</p>
+      <p id="subtitulo">O briefing é ideal para entender bem o seu projeto, conhecer a sua empresa/marca e principalmente, desenvolver uma vitrine na internet que demonstre aos seus clientes e parceiros uma empresa/marca forte e de grande valor.</p>
+      <p><strong>Não é necessário responder todas as perguntas. Mas quanto mais, melhor.</strong></p><br>
+  </div>
+
+<!-- INÍCIO DO FORMULÁRIO -->
+    <section class="section" id="identificacao">
+      <h2>IDENTIFICAÇÃO</h2>
+      <form>
+<!-- CAMPO DE IDENTIFICAÇÃO -->
+        <fieldset>
+          <div>
+            <label for="nomeEmpresa">Nome da empresa:</label>
+            <input type="text" name="nomeEmpresa" id="nomeEmpresa">
+          </div>
+
+          <div>
+            <label for="nomeCliente">Nome do cliente:</label>
+            <input type="text" name="nomeCliente" id="nomeCliente">
+          </div>
+
+          <div>
+            <label for="emailCliente">E-mail do cliente:</label>
+            <input type="email" name="emailCliente" id="emailCliente">
+          </div>
+        </fieldset>
+
+        <!-- PERGUNTAS SOBRE A EMPRESA -->
+        <fieldset>
+          <section class="section" id="empresa">
+            <h2>PERGUNTAS SOBRE A EMPRESA</h2>
+            <div class="campo">
+              <label for="pergunta1">1 - Descreva um breve histórico de sua empresa/marca para que seja possível entender o contexto em que o seu negócio se encontra atualmente.</label>
+              <textarea name="pergunta1" id="pergunta1" style="width:26rem" rows="6"></textarea>
+            </div>
+
+            <div class="campo">
+              <label for="pergunta2">Qual é o principal produto/serviço da sua empresa?</label>
+              <textarea name="pergunta2" id="pergunta2" style="width:26rem" rows="6"></textarea>
+            </div>
+          </section>
+        </fieldset>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </div>
 </body>
