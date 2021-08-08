@@ -1,0 +1,36 @@
+/* Todos os elementos da página */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 7%;
+}
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+  font-family: sans-serif;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#observacao {
+  font-family: sans-serif;
+  margin-left: 7%;
+}
+
+#check {
+  display: inline-block;
+}
+
+#identificacao {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
