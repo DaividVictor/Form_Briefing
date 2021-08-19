@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CABEÇALHO COM TÍTULO E SUBTÍTULO */
+.container {
+  max-width: 73rem;
+  width: 100%;
+  height: auto; 
+  margin: 0 auto;
+  margin-top: 1.87rem;
+  border: 0.06rem solid black;
+}
+
+.container h1#briefing {
+  text-align: center;
+}
+
+p {
+  padding: 0.31rem 0.63rem;
+  font-size: 1.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0.63rem;
+  margin-top: 0.63rem;
+  margin-bottom: 0.63rem;
+}
+
+input {
+  padding: 0.31rem 28.12rem;
+  margin-left: 1.25rem;
+}
+
+/* TÓPICOS */
+.topico h2 {
+  text-align: center;
+}
+
+.botaoEnviar {
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  padding: 0.25rem 1.87rem;
+}
