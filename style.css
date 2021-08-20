@@ -6,30 +6,37 @@
 
 /* CABEÇALHO COM TÍTULO E SUBTÍTULO */
 .container {
-  max-width: 73rem;
-  width: 100%;
-  height: auto; 
-  margin: 0 auto;
-  margin-top: 1.87rem;
-  border: 0.06rem solid black;
+  max-width: 80rem; /*largura máxima*/
+  width: 100%; /*largura*/
+  height: auto; /*altura*/
+  margin: 0 auto; /*margem*/
+  margin-top: 1.87rem; /*margem superior*/
+  border: 0.06rem solid black; /*borda*/
 }
 
 .container h1#briefing {
+  font-size: 3rem;
   text-align: center;
 }
-
+/* text-decoration-line: underline; */
+.container p#observacao {
+text-decoration-line: underline;
+}
+/*margem esquerda (margin-left: 0.63rem)*/
 p {
   padding: 0.31rem 0.63rem;
-  font-size: 1.75rem;
+  font-size: 2rem; /*tamanho da fonte: 1.75rem*/
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 0.63rem;
+  /* margin: 1rem 0.63rem; */
+  margin: 1rem; 
   margin-top: 0.63rem;
   margin-bottom: 0.63rem;
 }
 
 input {
   padding: 0.31rem 28.12rem;
-  margin-left: 1.25rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* TÓPICOS */

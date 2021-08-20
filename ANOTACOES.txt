@@ -10,7 +10,7 @@
   border: 0.06rem solid black;
 }
 -> Alterar o tamanho da caixa do "container", aumentando assim a margem nas laterais e superior-inferior.
--> Uma largura de 1360 está bom
+-> Uma largura de 1280-1360 está bom
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -22,7 +22,8 @@ input {
 -> paddin: altura x largura (estes são os valores iniciais: 0.31rem 8.13rem)
 -> Usar a ferramenta régua do navegador p/ encontrar um valor, mas uma largura de 1282 está bom
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+Enviar e-mail através de formulário HTML:
+https://www.youtube.com/watch?v=2umsItNQ9mI
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
    VER ESTAS PROPRIEDADES CSS E APLICAR NESTE PROJETO
